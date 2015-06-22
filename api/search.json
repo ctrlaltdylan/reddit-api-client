@@ -1,0 +1,31 @@
+{
+  "operations": {
+
+    "Search": {
+      "httpMethod": "GET",
+      "uri": "api/search",
+      "summary": "Search links page.",
+      "parameters": {
+        "count": {
+          "location": "query",
+          "description": "The limit of number of items to return.",
+          "required": false,
+          "type": "string",
+          "value": 100
+        },
+        "q": {
+          "location": "query",
+          "description": "The string to query.",
+          "required": true,
+          "type": "string"
+        },
+        "t": {
+          "location": "query",
+          "description": "one of (hour, day, week, month, year, all)",
+          "required": false,
+          "type": "string"
+        }
+      }
+    },
+  }
+}

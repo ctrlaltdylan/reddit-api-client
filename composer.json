@@ -1,6 +1,6 @@
 {
 
-  "name": "hnrysmth/reddit-api-client",
+  "name": "ctrlaltdylan/reddit-api-client",
   "description": "Provides an interface to the API at reddit.com",
   "keywords": [
     "reddit",
@@ -14,6 +14,11 @@
       "name": "Henry Smith",
       "email": "henry@henrysmith.org",
       "homepage": "http://henrysmith.org"
+    },
+    {
+      "name": "Dylan Pierce",
+      "email": "me@dylanjpierce.com",
+      "homepage": "http://dylanjpierce.com"
     }
   ],
 
@@ -30,5 +35,4 @@
     "phpunit/phpunit": "3.7.*@dev",
     "squizlabs/php_codesniffer": "1.*"
   }
-
 }
