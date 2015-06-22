@@ -3,7 +3,7 @@
 
     "Search": {
       "httpMethod": "GET",
-      "uri": "api/search.json",
+      "uri": "search.json",
       "summary": "Search links page.",
       "parameters": {
         "count": {
