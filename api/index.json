@@ -6,6 +6,7 @@
       "account.json",
       "comment.json",
       "link.json",
-      "message.json"
+      "message.json",
+      "search.json",
     ]
 }
